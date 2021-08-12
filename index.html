@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie-Shoodie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="">
+        <div class="row" id="left">
+            <div class="row" id="logo">
+                <div class="image"></div>
+                <span class="font1">Foodie-Shoodie</span>
+            </div>
+            <div class="row" id="navig">
+                <ul class="row">
+                    <li >HOME</li>
+                    <li id="total">TOTAL</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="right">
+            <input type="text" class="font1" placeholder="Search">
+            <button class="btn font1">
+                search
+                </button>
+        </div>
+    </nav>
+    <hr>
+    <div class="row1" id="stories">
+        <div  class="column story">
+            <img src="rajat-sarki-SYCFbf8BYus-unsplash-removebg-preview.png" alt="" class="imgg">
+            <span class="font1">Momos</span>
+        </div>
+        <div  class="column story">
+            <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="imgg">
+            <span class="font1">Pasta</span>
+        </div>
+        <div  class="column story">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="imgg">
+            <span class="font1">Pizza</span>
+        </div>
+        <div  class="column story">
+            <img src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c291cHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="imgg">
+            <span class="font1">Soup</span>
+        </div>
+        <div  class="column story">
+            <img src="https://images.unsplash.com/photo-1600490036275-35f5f1656861?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bm9vZGxlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="imgg">
+            <span class="font1">Noodles</span>
+        </div>
+        <div  class="column story">
+            <img src="https://images.unsplash.com/photo-1558679582-7fe9071024c9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdhcmxpYyUyMGJyZWFkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="imgg">
+            <span class="font1">Garlic Bread</span>
+        </div>
+        <div  class="column story">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="imgg">
+            <span class="font1">Burger</span>
+        </div>
+        <div  class="column story">
+            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyeWFuaXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="imgg">
+            <span class="font1">Biryani</span>
+        </div>
+        <div  class="column story">
+            <img src="https://images.unsplash.com/photo-1553909489-cd47e0907980?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="imgg">
+            <span class="font1">Sandwich</span>
+        </div>
+    </div>
+    <div >
+        <hr><h1 class="row ">OUR FAVORITE</h1><hr>
+    </div>
+    <div id="items" class="column">
+        <div class="item " id="sandwich">
+            <img src="https://images.unsplash.com/photo-1553909489-cd47e0907980?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="img2">
+            <div class="column">
+                <h1 class="font1 row">Sandwich</h1>
+                <button class="btn1" id="submit" onclick="displayRadioValue()">Add to Your Favorite <svg id="hh" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg></button>
+            </div>
+        </div>
+        <div class="item" id="momos">
+            <img src="rajat-sarki-SYCFbf8BYus-unsplash-removebg-preview.png" alt="" class="img2">
+            <div class="column">
+                <h1 class="font1 row">MOMOS</h1>
+                <button class="btn1" id="submit" onclick="displayRadioValue1()">Add to Your Favorite <svg id="hh1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg></button>
+            </div>
+        </div>
+        <div class="item" id="pizza">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="img2">
+            <div class="column">
+                <h1 class="font1 row">PIZZA</h1>
+                <button class="btn1"id="submit" onclick="displayRadioValue2()">Add to Your Favorite <svg id="hh2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg></button>
+            </div>
+        </div>
+        <div class="item" id="biryani">
+            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyeWFuaXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="img2">
+            <div class="column">
+                <h1 class="font1 row">Biryani</h1>
+                <button class="btn1" id="submit" onclick="displayRadioValue3()">Add to Your Favorite <svg id="hh3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
