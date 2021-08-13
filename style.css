@@ -96,6 +96,13 @@ nav{
     border: none;
 
 }
+.btn2{
+    /* font-size: 2rem; */
+    /* padding: 20px; */
+    background-color: transparent;
+    border: none;
+
+}
 .btn1:hover{
     border: 1px solid pink;
 }
